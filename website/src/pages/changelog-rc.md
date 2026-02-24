@@ -653,7 +653,7 @@ There are three provided output reports named: `plain`, `xml` and `html`. Custom
 - Improvement #1056 TooGenericExceptionCaught - [#1060](https://github.com/detekt/detekt/pull/1060)
 - Add ForbiddenVoid rule - [#1059](https://github.com/detekt/detekt/pull/1059)
 - Forbid usage of Void - [#1058](https://github.com/detekt/detekt/issues/1058)
-- DetektCheck only for git commiting files? - [#1057](https://github.com/detekt/detekt/issues/1057)
+- DetektCheck only for git committing files? - [#1057](https://github.com/detekt/detekt/issues/1057)
 - TooGenericExceptionCaught should not be reported if the name is ignored - [#1056](https://github.com/detekt/detekt/issues/1056)
 - False positive with MagicNumber on default value for parameters - [#1055](https://github.com/detekt/detekt/issues/1055)
 - ComplexMethod should treat "return when" as "single when" expression when ignoring - [#1054](https://github.com/detekt/detekt/issues/1054)
