@@ -30,7 +30,7 @@ This is a point release for Detekt `1.23.0`, built against Kotlin `2.0.21`, with
 - Fix `ThrowingExceptionsWithoutMessageOrCause` false positive - [#7715](https://github.com/detekt/detekt/pull/7715)
 - Issue #7634: Make `UndocumentedPublicClass` configurable to flag `com… - [#7635](https://github.com/detekt/detekt/pull/7635)
 - Fix redundant empty tags in baseline XML - [#7625](https://github.com/detekt/detekt/pull/7625)
-- MatchingDeclarationName now supports platofrm suffixes - [#6426](https://github.com/detekt/detekt/pull/6426)
+- MatchingDeclarationName now supports platform suffixes - [#6426](https://github.com/detekt/detekt/pull/6426)
 
 ##### Contributors
 

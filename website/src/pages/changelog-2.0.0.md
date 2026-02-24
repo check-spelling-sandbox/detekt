@@ -794,7 +794,7 @@ This is an initial alpha release of Detekt 2.0.0.
 - UnconditionalJumpStatementInLoop: don't report a conditional break in a single body expression - [#6443](https://github.com/detekt/detekt/pull/6443)
 - UnnecessaryFilter: add predicate functions - [#6435](https://github.com/detekt/detekt/pull/6435)
 - Improve UnnecessaryFilter - [#6431](https://github.com/detekt/detekt/pull/6431)
-- MatchingDeclarationName now supports platofrm suffixes - [#6426](https://github.com/detekt/detekt/pull/6426)
+- MatchingDeclarationName now supports platform suffixes - [#6426](https://github.com/detekt/detekt/pull/6426)
 - Ignore complexity of local function when calculating cyclomatic complexity by default - [#6421](https://github.com/detekt/detekt/pull/6421)
 - Disable deprecated rules when using `allRules` flag. - [#6413](https://github.com/detekt/detekt/pull/6413)
 - Fix reporting unused imports at file level - [#6390](https://github.com/detekt/detekt/pull/6390)
