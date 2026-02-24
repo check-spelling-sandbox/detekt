@@ -953,7 +953,7 @@ us release this new version of detekt. You're more than welcome to join our comm
 -   Fix false positive of UnnecessaryInnerClass - [#4509](https://github.com/detekt/detekt/pull/4509)
 -   [MaxLineLength] Fix signature in for blank characters in the Baseline - [#4504](https://github.com/detekt/detekt/pull/4504)
 -   Fix overridden function reporting for CanBeNonNullable rule - [#4497](https://github.com/detekt/detekt/pull/4497)
--   Set the name of functions and paramenters between ` to improve the readability - [#4488](https://github.com/detekt/detekt/pull/4488)
+-   Set the name of functions and parameters between ` to improve the readability - [#4488](https://github.com/detekt/detekt/pull/4488)
 -   update InvalidPackageDeclaration to report if rootPackage is not present - [#4484](https://github.com/detekt/detekt/pull/4484)
 -   [VarCouldBeVal] Override vars will not be flagged if bindingContext is not set - [#4477](https://github.com/detekt/detekt/pull/4477)
 -   Document the overlapping rules from `formatting` - [#4473](https://github.com/detekt/detekt/pull/4473)
@@ -1986,7 +1986,7 @@ The 1.13.0 release got corrupted and should not be used.
 -   Print filtered paths in debug mode for easier bug tracing - [#3022](https://github.com/detekt/detekt/pull/3022)
 -   Unused import not detected - [#3020](https://github.com/detekt/detekt/issues/3020)
 -   Include reports and formatting features to the system test - [#3018](https://github.com/detekt/detekt/pull/3018)
--   detektGenerateConfig ignores detekt.config paramenter - [#2565](https://github.com/detekt/detekt/issues/2565)
+-   detektGenerateConfig ignores detekt.config parameter - [#2565](https://github.com/detekt/detekt/issues/2565)
 -   Treat config property deprecations as errors - [#2545](https://github.com/detekt/detekt/issues/2545)
 -   Print filtered paths in debug mode - [#869](https://github.com/detekt/detekt/issues/869)
 
@@ -3065,7 +3065,7 @@ See all issues at: [1.1.1](https://github.com/detekt/detekt/milestone/50)
 
 ##### Changelog
 
--   Clarify threshold pararameter meaning in docs - [#1974](https://github.com/detekt/detekt/pull/1974)
+-   Clarify threshold parameter meaning in docs - [#1974](https://github.com/detekt/detekt/pull/1974)
 -   Introduce ignoreLabeled config for ReturnFromFinally - [#1973](https://github.com/detekt/detekt/pull/1973)
 -   Ignore FunctionOnlyReturningConstant for allowed annotations - [#1968](https://github.com/detekt/detekt/pull/1968)
 -   Allow regex configuration support for Forbidden Import rule - [#1963](https://github.com/detekt/detekt/pull/1963)
