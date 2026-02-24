@@ -2842,7 +2842,7 @@ See all issues at: [1.4.0](https://github.com/detekt/detekt/milestone/55)
 #### 1.3.1
 
 -   Remove old unused documentation - [#2210](https://github.com/detekt/detekt/pull/2210)
--   Show code snippet erros in html reports - [#2209](https://github.com/detekt/detekt/pull/2209)
+-   Show code snippet errors in html reports - [#2209](https://github.com/detekt/detekt/pull/2209)
 -   Use compileAndLint in UnusedPrivateClassSpec - [#2208](https://github.com/detekt/detekt/pull/2208)
 -   Fix false positive in UnusedPrivateClass - [#2207](https://github.com/detekt/detekt/pull/2207)
 -   Update readme promoting new properties of the gradle plugin - [#2205](https://github.com/detekt/detekt/pull/2205)
