@@ -1239,7 +1239,7 @@ tasks.detektMain {
 -   Address feedback on #4139 - [#4143](https://github.com/detekt/detekt/pull/4143)
 -   Don't skip tests that now pass - [#4142](https://github.com/detekt/detekt/pull/4142)
 -   Fixes for Kotlin 1.6.0-M1 - [#4139](https://github.com/detekt/detekt/pull/4139)
--   Don't unnecessarily propogate opt-in requirement - [#4116](https://github.com/detekt/detekt/pull/4116)
+-   Don't unnecessarily propagate opt-in requirement - [#4116](https://github.com/detekt/detekt/pull/4116)
 -   Drop junit-platform-launcher dependency - [#4115](https://github.com/detekt/detekt/pull/4115)
 -   Ensure detekt-tooling public API is stable - [#4112](https://github.com/detekt/detekt/pull/4112)
 -   Fix globing typo - [#4107](https://github.com/detekt/detekt/pull/4107)
