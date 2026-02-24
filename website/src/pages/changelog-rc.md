@@ -1038,7 +1038,7 @@ file name must match the declaration name according to the jetbrains and android
 - Implements #643 - MagicNumber ignores default values in ctor properties - [#644](https://github.com/detekt/detekt/pull/644)
 - update gradle to v4.4.1 - [#642](https://github.com/detekt/detekt/pull/642)
 - Documentation for Exceptions RuleSet - [#640](https://github.com/detekt/detekt/pull/640)
-- Documentation for "emtpy" rules - [#639](https://github.com/detekt/detekt/pull/639)
+- Documentation for "empty" rules - [#639](https://github.com/detekt/detekt/pull/639)
 - Documentation for documentation rules - [#638](https://github.com/detekt/detekt/pull/638)
 - Change variable min & max length to match IntelliJ. - [#635](https://github.com/detekt/detekt/pull/635)
 - Remove "native filesystem" warning on Windows - [#634](https://github.com/detekt/detekt/pull/634)
