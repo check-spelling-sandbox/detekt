@@ -777,7 +777,7 @@ This is an initial alpha release of Detekt 2.0.0.
 - Fix issues related to kotlin-stdlib's Gradle module metadata in Kotlin 1.9.20 - [#6590](https://github.com/detekt/detekt/pull/6590)
 - MethodSignature - Add the condition of receiver should be null - [#6570](https://github.com/detekt/detekt/pull/6570)
 - Fix by adding last method call to the set - [#6567](https://github.com/detekt/detekt/pull/6567)
-- Remove check for deprectated functions toUpperCase and toLowerCase - [#6548](https://github.com/detekt/detekt/pull/6548)
+- Remove check for deprecated functions toUpperCase and toLowerCase - [#6548](https://github.com/detekt/detekt/pull/6548)
 - Create DetektBasePlugin - [#6547](https://github.com/detekt/detekt/pull/6547)
 - Configure DGP as a public module - [#6533](https://github.com/detekt/detekt/pull/6533)
 - Fix inputstream leaking file descriptor in Gradle - [#6519](https://github.com/detekt/detekt/pull/6519)
