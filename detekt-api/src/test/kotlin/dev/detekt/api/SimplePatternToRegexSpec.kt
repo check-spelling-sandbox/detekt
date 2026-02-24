@@ -51,7 +51,7 @@ internal class SimplePatternToRegexSpec {
         }
 
         @Test
-        fun `does not match a other string`() {
+        fun `does not match another string`() {
             val actual = subject.matches("aaa")
             assertThat(actual).isFalse()
         }
@@ -242,7 +242,7 @@ internal class SimplePatternToRegexSpec {
             }
 
             @Test
-            fun `does not match a other string`() {
+            fun `does not match another string`() {
                 val actual = subject.matches("a_b_c")
                 assertThat(actual).isFalse()
             }
