@@ -328,7 +328,7 @@ We would like to thank the following contributors that made this release possibl
 -   Boy Scout - [#5808](https://github.com/detekt/detekt/pull/5808)
 -   Simplify `TestConfig` usages - [#5801](https://github.com/detekt/detekt/pull/5801)
 -   Reduce configuration of UnusedPrivateMember's split rules - [#5800](https://github.com/detekt/detekt/pull/5800)
--   Force SerialVerionUID to be private - [#5798](https://github.com/detekt/detekt/pull/5798)
+-   Force SerialVersionUID to be private - [#5798](https://github.com/detekt/detekt/pull/5798)
 -   Exclude the KMP test folders for android - [#5797](https://github.com/detekt/detekt/pull/5797)
 -   Add aliases for PackageNaming and InvalidPackageDeclaration - [#5795](https://github.com/detekt/detekt/pull/5795)
 -   Forbid using Jupiter Kotlin assertions - [#5794](https://github.com/detekt/detekt/pull/5794)
