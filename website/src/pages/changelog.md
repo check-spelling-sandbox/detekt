@@ -136,7 +136,7 @@ got reported by the community.
 -   Don't report FunctionNaming when the function's name equals to the return type's name with type arguments - [#6605](https://github.com/detekt/detekt/pull/6605)
 -   Fix issues related to kotlin-stdlib's Gradle module metadata in Kotlin 1.9.20 - [#6590](https://github.com/detekt/detekt/pull/6590)
 -   MethodSignature - Add the condition of receiver should be null - [#6570](https://github.com/detekt/detekt/pull/6570)
--   Remove check for deprectated functions toUpperCase and toLowerCase - [#6548](https://github.com/detekt/detekt/pull/6548)
+-   Remove check for deprecated functions toUpperCase and toLowerCase - [#6548](https://github.com/detekt/detekt/pull/6548)
 -   Fixes false positive of trailing whitespaces in kdoc - [#6370](https://github.com/detekt/detekt/pull/6370)
 
 ##### Dependency Updates
