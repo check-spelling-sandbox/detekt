@@ -8,7 +8,7 @@ keywords: [changelog, release-notes, migration]
 
 :::info
 
-The changelog for Detekt 2.0.0 alphas can be found [here](/changelog-2.0.0).
+See the [changelog for Detekt 2.0.0 alphas](/changelog-2.0.0).
 
 :::
 
