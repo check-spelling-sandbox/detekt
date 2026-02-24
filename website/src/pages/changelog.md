@@ -207,7 +207,7 @@ got reported by the community.
 -   Allow documenting public fun name when same private variable is present - [#6165](https://github.com/detekt/detekt/pull/6165)
 -   Find range call using recursion - [#6164](https://github.com/detekt/detekt/pull/6164)
 -   StringShouldBeRawString: Ignore `replaceIndent` and `prependIndent` - [#6154](https://github.com/detekt/detekt/pull/6154)
--   UnusedPrivateProperty: Fix false postive by ignoring data classes - [#6151](https://github.com/detekt/detekt/pull/6151)
+-   UnusedPrivateProperty: Fix false positive by ignoring data classes - [#6151](https://github.com/detekt/detekt/pull/6151)
 -   PropertyUsedBeforeDeclaration: fix false positive in nested/inner class - [#6139](https://github.com/detekt/detekt/pull/6139)
 
 ##### Dependency Updates
