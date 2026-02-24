@@ -28,8 +28,8 @@ class AnnotationExcluder(root: KtFile, private val excludes: List<Regex>, privat
         val possibleNames = if (fqName == null) {
             fullQualifiedNameGuesser.getFullQualifiedName(annotation.text.toString())
                 .map { it.getPackage() to it }
-                .flatMap { (packaage, fqName) ->
-                    fqName.substringAfter("$packaage.", "")
+                .flatMap { (pkg, fqName) ->
+                    fqName.substringAfter("$pkg.", "")
                         .split(".")
                         .reversed()
                         .scan("") { acc, name -> if (acc.isEmpty()) name else "$name.$acc" }
