@@ -2235,7 +2235,7 @@ See all issues at: [1.11.0-RC1](https://github.com/detekt/detekt/milestone/69)
 
 -   We fixed a regression in baseline signatures. This breaks baseline ids for reported issues at functions for some rules. You may need to regenerate the baseline file or manually change the ids. We are very sorry for this inconvenience.
 -   KtLint replaced their default `Indentation` rule. Expect new formatting issues here!
--   We removed `HierachicalConfig` interface. It was deprecated in 1.7.0 and could lead to OOM errors when reusing `Config`
+-   We removed `HierarchicalConfig` interface. It was deprecated in 1.7.0 and could lead to OOM errors when reusing `Config`
     embedding detekt.
     If you used `Config.parent.key` in your code, `Config.parentPath` is an alternative for this interface.
 -   We are dropping the thin wrapper tasks over Intellij's `inspections.sh` and `format.sh`.
