@@ -2517,7 +2517,7 @@ See all issues at: [1.7.3](https://github.com/detekt/detekt/milestone/62)
 -   1.7.1 does not depend on Kotlin 1.3.71 - [#2527](https://github.com/detekt/detekt/issues/2527)
 -   UnnecessaryAbstractClass false positive for abstractproperties - [#2526](https://github.com/detekt/detekt/issues/2526)
 -   Do not fail the build on config property warnings/deprecations - #2523 - [#2525](https://github.com/detekt/detekt/pull/2525)
--   regression 1.7.1, threshhold does not exist - [#2523](https://github.com/detekt/detekt/issues/2523)
+-   regression 1.7.1, threshold does not exist - [#2523](https://github.com/detekt/detekt/issues/2523)
 -   Setup GitHub Actions - [#2512](https://github.com/detekt/detekt/pull/2512)
 
 See all issues at: [1.7.2](https://github.com/detekt/detekt/milestone/61)
