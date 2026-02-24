@@ -352,7 +352,7 @@ class UnusedVariableSpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Nested
-    inner class `descturing variable` {
+    inner class `destructuring variable` {
         @Test
         fun `correctly reports the unused structured variable`() {
             val code = """
