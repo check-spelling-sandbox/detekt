@@ -44,7 +44,7 @@ You can watch his excellent talk about **Static Code Analysis For Kotlin** on
 
 It is possible to configure Gradle to only run on staged files in pre-commit hook. 
 This has the advantage of speedier execution, by running on fewer files and 
-of lowered false positives by not scanning files that are not yet ready to be commited. 
+of lowered false positives by not scanning files that are not yet ready to be committed. 
 
 First, we need to declare a `getGitStagedFiles` function - a function task that will retrieve list of staged files
 in a configuration-cache compatible way. Paste following into your project's `build.gradle.kts`:
