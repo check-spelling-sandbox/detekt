@@ -112,7 +112,7 @@ class AnnotationExcluderSpec {
             }
 
             @Test
-            @Disabled("This should be doable but it's not imlemented yet")
+            @Disabled("This should be doable but it's not implemented yet")
             fun `correct with Analysis API`() {
                 val file = KotlinAnalysisApiEngine.compile(code, listOf(helloWorldAnnotationsCode))
                 val ktAnnotation = file.annotationEntry()
