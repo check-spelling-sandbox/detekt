@@ -610,7 +610,7 @@ This is an initial alpha release of Detekt 2.0.0.
 - Add a note to use compileOnly to depend on detekt-api - [#7907](https://github.com/detekt/detekt/pull/7907)
 - Configurable additional operators - [#7888](https://github.com/detekt/detekt/pull/7888)
 - Faster MaxLineLength - [#7882](https://github.com/detekt/detekt/pull/7882)
-- [ArgumentListWrapping] Fix type in `paremeter` - [#7881](https://github.com/detekt/detekt/pull/7881)
+- [ArgumentListWrapping] Fix typo in `paremeter` - [#7881](https://github.com/detekt/detekt/pull/7881)
 - [Deprecation] Add config `ignoreImport` - [#7878](https://github.com/detekt/detekt/pull/7878)
 - Ensure that the correct lint function is called for the passed rule - [#7874](https://github.com/detekt/detekt/pull/7874)
 - Remove space in the end of a description - [#7872](https://github.com/detekt/detekt/pull/7872)
