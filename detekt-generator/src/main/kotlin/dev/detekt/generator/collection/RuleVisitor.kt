@@ -123,7 +123,7 @@ internal class RuleVisitor(textReplacements: Map<String, String>) : KtTreeVisito
 
     companion object {
         private val ruleClasses = listOf(
-            // These references are stringly-typed to prevent dependency cycle:
+            // These references are strongly-typed to prevent dependency cycle:
             // This class requires KtlintRule,
             // which needs detekt-rules-ktlint-wrapper.jar,
             // which needs :detekt-rules-ktlint-wrapper:processResources task output,
