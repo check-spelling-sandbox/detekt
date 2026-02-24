@@ -2220,7 +2220,7 @@ See all issues at: [1.11.0-RC1](https://github.com/detekt/detekt/milestone/69)
 
 ##### Notable Changes
 
--   New rules: `IgnoredReturnValue`, `ImplictUnitReturnType`
+-   New rules: `IgnoredReturnValue`, `ImplicitUnitReturnType`
 -   The complexity report (console/html) now calculates the [cognitive complexity metric](https://www.sonarsource.com/docs/CognitiveComplexity.pdf) for your project.
 -   Issues at functions and classes are now reported at the identifiers. This is especially helpful in the IntelliJ plugin.
 -   Extension authors can now manipulate the findings with the new [ReportingExtension](https://github.com/detekt/detekt/blob/main/detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/ReportingExtension.kt).
@@ -2263,7 +2263,7 @@ See all issues at: [1.11.0-RC1](https://github.com/detekt/detekt/milestone/69)
 -   Report ComplexInterface issues at identifiers - [#2786](https://github.com/detekt/detekt/pull/2786)
 -   Construct signatures based on named declaration instead of just the identifier - [#2785](https://github.com/detekt/detekt/pull/2785)
 -   KtLint to 0.37.1 - [#2783](https://github.com/detekt/detekt/pull/2783)
--   Implement new rule ImplictUnitReturnTypet - [#2781](https://github.com/detekt/detekt/pull/2781)
+-   Implement new rule ImplicitUnitReturnTypet - [#2781](https://github.com/detekt/detekt/pull/2781)
 -   Feature/restrict is properties - [#2779](https://github.com/detekt/detekt/pull/2779)
 -   Rename Blacklist and Whitelist to be self explanatory - [#2778](https://github.com/detekt/detekt/pull/2778)
 -   Remove deprecated HierarchicalConfig which could lead to OOM when reusing Config objects - [#2768](https://github.com/detekt/detekt/pull/2768)
