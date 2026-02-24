@@ -134,8 +134,8 @@ subprojects {
 }
 ```
 
-## Integration with Github Code Scanning
-If your repository is hosted on Github, you can enable SARIF output in your repository.
+## Integration with GitHub Code Scanning
+If your repository is hosted on GitHub, you can enable SARIF output in your repository.
 You can follow to the [official documentation](https://docs.github.com/en/github/finding-security-vulnerabilities-and-errors-in-your-code/uploading-a-sarif-file-to-github).
 
 You can follow the example below as a quick start:
@@ -159,7 +159,7 @@ jobs:
 
       # Make sure we always run this upload task,
       # because the previous step may fail if there are findings.
-      - name: Upload SARIF to Github using the upload-sarif action
+      - name: Upload SARIF to GitHub using the upload-sarif action
         uses: github/codeql-action/upload-sarif@v1
         if: success() || failure()
         with:

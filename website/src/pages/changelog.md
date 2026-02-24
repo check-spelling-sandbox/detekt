@@ -1287,7 +1287,7 @@ us release this new version of detekt.
 -   We now use multi-line format for list options in the default detekt config file - [#3827](https://github.com/detekt/detekt/pull/3827)
 -   The rule `VarCouldBeVal` has been updated and now works only with type resolution to provide more precise findings - [#3880](https://github.com/detekt/detekt/pull/3880)
 -   We removed all the references to `Extensions.getRootArea` that is now deprecated from our codebase. This was affecting users with sporadic crashes. - [#3848](https://github.com/detekt/detekt/pull/3848)
--   For _detekt_ rule authors: We created a Github Template that you can use to bootstrap your custom rule project: [detekt-custom-rule-template](https://github.com/detekt/detekt-custom-rule-template). You can use JitPack to host it and share your rule easily with other members of the community.
+-   For _detekt_ rule authors: We created a GitHub Template that you can use to bootstrap your custom rule project: [detekt-custom-rule-template](https://github.com/detekt/detekt-custom-rule-template). You can use JitPack to host it and share your rule easily with other members of the community.
 -   For _detekt_ rule authors: We finished the rework to use the annotations instead of kdoc tags in rules. Specifically configurations must be configured using `@Configuration` while auto-correction capability should be specified with the `@AutoCorrectable` annotation [#3820](https://github.com/detekt/detekt/pull/3820).
 
 ##### Migration
@@ -1708,7 +1708,7 @@ See all issues at: [1.17.0](https://github.com/detekt/detekt/milestone/81)
 -   Add a test for UndocumentedPublicClass and fun interfaces - [#3374](https://github.com/detekt/detekt/pull/3374)
 -   Refactor build.gradle.kts in detekt-gradle-plugin - [#3371](https://github.com/detekt/detekt/pull/3371)
 -   Gradle to 6.8 - [#3362](https://github.com/detekt/detekt/pull/3362)
--   Integrate SARIF report with Github code scanning - [#3359](https://github.com/detekt/detekt/pull/3359)
+-   Integrate SARIF report with GitHub code scanning - [#3359](https://github.com/detekt/detekt/pull/3359)
 -   Refactor integration test for detekt-gradle-plugin - [#3356](https://github.com/detekt/detekt/pull/3356)
 -   Improve gradle plugin - [#3354](https://github.com/detekt/detekt/pull/3354)
 -   Remove checkNotNull - [#3352](https://github.com/detekt/detekt/pull/3352)
@@ -1814,7 +1814,7 @@ Rule authors can use `TestConfig(Map)` or `yamlConfig(String)` from `detekt-test
 -   IgnoredReturnValue false positives - [#3043](https://github.com/detekt/detekt/issues/3043)
 -   Offset calculation in KtLint deprecated/made private - [#3021](https://github.com/detekt/detekt/issues/3021)
 -   Map `{ it }` must return an error - [#2975](https://github.com/detekt/detekt/issues/2975)
--   Upload detekt-formatting plugin to Github releases next to precompiled cli binary - [#2927](https://github.com/detekt/detekt/issues/2927)
+-   Upload detekt-formatting plugin to GitHub releases next to precompiled cli binary - [#2927](https://github.com/detekt/detekt/issues/2927)
 -   Add a rule to flag places where `ifBlank` and `ifEmpty` can be used - [#2840](https://github.com/detekt/detekt/issues/2840)
 -   Remove hardcoded default values from rules - [#2597](https://github.com/detekt/detekt/issues/2597)
 -   Doc: type and symbol solving - [#2259](https://github.com/detekt/detekt/issues/2259)
@@ -2158,7 +2158,7 @@ See all issues at: [1.11.0-RC2](https://github.com/detekt/detekt/milestone/68)
 ##### Changelog
 
 -   Add non-affirming test cases for UselessCallOnNotNull - [#2918](https://github.com/detekt/detekt/pull/2918)
--   Add Github Action: Detekt All to readme - [#2915](https://github.com/detekt/detekt/pull/2915)
+-   Add GitHub Action: Detekt All to readme - [#2915](https://github.com/detekt/detekt/pull/2915)
 -   Remove deprecated BuildFailureReport from doc - [#2914](https://github.com/detekt/detekt/pull/2914)
 -   Document Console Reports code - [#2913](https://github.com/detekt/detekt/pull/2913)
 -   Update docs in ProjectMetric class - [#2912](https://github.com/detekt/detekt/pull/2912)
@@ -2301,7 +2301,7 @@ See all issues at: [1.11.0-RC1](https://github.com/detekt/detekt/milestone/69)
 -   Run compile-test-snippets in an isolated job - [#2797](https://github.com/detekt/detekt/pull/2797)
 -   Run verifyGeneratorOutput in an isolated job - [#2796](https://github.com/detekt/detekt/pull/2796)
 -   Introduce BoM to manage our own dependencies - [#2792](https://github.com/detekt/detekt/pull/2792)
--   Smarter Caching on Github Actions - [#2788](https://github.com/detekt/detekt/pull/2788)
+-   Smarter Caching on GitHub Actions - [#2788](https://github.com/detekt/detekt/pull/2788)
 -   Fix config generation directory - [#2782](https://github.com/detekt/detekt/pull/2782)
 -   Disable Gradle daemon on CI - [#2780](https://github.com/detekt/detekt/pull/2780)
 -   Convert github-milestone-report.groovy to main.kts - [#2777](https://github.com/detekt/detekt/pull/2777)

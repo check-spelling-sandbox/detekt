@@ -35,7 +35,7 @@ Examples of unacceptable behavior include:
   without their explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
-* Any form of verbal abuse on Github Issues/Pull Requests and on our public and
+* Any form of verbal abuse on GitHub Issues/Pull Requests and on our public and
   private forums
 
 ## Enforcement Responsibilities
@@ -101,7 +101,7 @@ ban.
 sustained inappropriate behavior.
 
 **Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time (including, but not exclusively, Github organization and Slack channel). No public or
+communication with the community for a specified period of time (including, but not exclusively, GitHub organization and Slack channel). No public or
 private interaction with the people involved, including unsolicited interaction
 with those enforcing the Code of Conduct, is allowed during this period.
 Violating these terms may lead to a permanent ban.
