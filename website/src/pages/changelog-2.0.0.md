@@ -375,7 +375,7 @@ This is an initial alpha release of Detekt 2.0.0.
 - Make `TestConfig` final - [#6737](https://github.com/detekt/detekt/pull/6737)
 - `ConfigAware` doesn't need to implement `Config` - [#6736](https://github.com/detekt/detekt/pull/6736)
 - Mandatory config on Rule - [#6734](https://github.com/detekt/detekt/pull/6734)
-- RuleSet provides a Factory of rules instead of the rules themselfs - [#6733](https://github.com/detekt/detekt/pull/6733)
+- RuleSet provides a Factory of rules instead of the rules themselves - [#6733](https://github.com/detekt/detekt/pull/6733)
 - Remove deprecated code on `RuleSet` - [#6726](https://github.com/detekt/detekt/pull/6726)
 - Removed default implementation `Extension::id` - [#6505](https://github.com/detekt/detekt/pull/6505)
 - removed OutputReport::name - [#6500](https://github.com/detekt/detekt/pull/6500)
