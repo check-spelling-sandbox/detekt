@@ -842,7 +842,7 @@ This is an initial alpha release of Detekt 2.0.0.
 - Add `allowedWithLengthLessThan` and remove `excludeStrin… - [#6156](https://github.com/detekt/detekt/pull/6156)
 - StringShouldBeRawString: Ignore `replaceIndent` and `prependIndent` - [#6154](https://github.com/detekt/detekt/pull/6154)
 - Update JamesIves/github-pages-deploy-action digest to 22a6ee2 - [#6152](https://github.com/detekt/detekt/pull/6152)
-- UnusedPrivateProperty: Fix false postive by ignoring data classes - [#6151](https://github.com/detekt/detekt/pull/6151)
+- UnusedPrivateProperty: Fix false positive by ignoring data classes - [#6151](https://github.com/detekt/detekt/pull/6151)
 - Assume platform type as non nullable - [#6149](https://github.com/detekt/detekt/pull/6149)
 - PropertyUsedBeforeDeclaration: fix false positive in nested/inner class - [#6139](https://github.com/detekt/detekt/pull/6139)
 - Fix typo in compiler plugin doc for 1.23.0 - [#6138](https://github.com/detekt/detekt/pull/6138)
