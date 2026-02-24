@@ -14,7 +14,7 @@ When configuring _detekt_ for your _Gradle_ based project, you basically have tw
 
 For the first option, please see how [detekt](https://github.com/detekt/detekt) itself creates a task for each module:
 ```gradle
-subprojecs {
+subprojects {
 ...
     detekt {
         debug = true
