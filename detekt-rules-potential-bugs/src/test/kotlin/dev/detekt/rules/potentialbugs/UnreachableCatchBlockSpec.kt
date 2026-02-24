@@ -12,7 +12,7 @@ class UnreachableCatchBlockSpec(private val env: KotlinEnvironmentContainer) {
     private val subject = UnreachableCatchBlock(Config.empty)
 
     @Test
-    fun `reports a unreachable catch block that is after the super class catch block`() {
+    fun `reports an unreachable catch block that is after the super class catch block`() {
         val code = """
             fun test() {
                 try {
@@ -27,7 +27,7 @@ class UnreachableCatchBlockSpec(private val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports a unreachable catch block that is after the same class catch block`() {
+    fun `reports an unreachable catch block that is after the same class catch block`() {
         val code = """
             fun test() {
                 try {

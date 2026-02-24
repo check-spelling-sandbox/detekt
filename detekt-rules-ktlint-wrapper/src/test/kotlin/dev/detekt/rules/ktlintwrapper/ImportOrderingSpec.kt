@@ -87,7 +87,7 @@ class ImportOrderingSpec {
     inner class `supports custom patterns` {
 
         @Test
-        fun `misses a empty line between aliases and other imports`() {
+        fun `misses an empty line between aliases and other imports`() {
             val findings = ImportOrdering(TestConfig("layout" to "*,|,^*")).lint(
                 """
                     import android.app.Activity

@@ -263,4 +263,4 @@ Overridden properties are excluded by this rule.
 
 * ``ignoreEnumEntries`` (default: ``false``)
 
-  ignores a enum entries when set to true
+  ignores an enum entries when set to true

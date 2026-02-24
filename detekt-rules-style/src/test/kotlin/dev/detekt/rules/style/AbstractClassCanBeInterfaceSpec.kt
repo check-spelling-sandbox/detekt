@@ -144,7 +144,7 @@ class AbstractClassCanBeInterfaceSpec(val env: KotlinEnvironmentContainer) {
         }
 
         @Test
-        fun `does not report an abstract class with a internal abstract member`() {
+        fun `does not report an abstract class with an internal abstract member`() {
             val code = """
                 abstract class A {
                     internal abstract fun f()

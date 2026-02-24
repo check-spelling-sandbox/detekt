@@ -199,7 +199,7 @@ class UseRequireSpec(val env: KotlinEnvironmentContainer) {
         }
 
         @Test
-        fun `does not report an issue if the exception is after a elvis operator`() {
+        fun `does not report an issue if the exception is after an elvis operator`() {
             val code = """
                 import java.util.LinkedList
 

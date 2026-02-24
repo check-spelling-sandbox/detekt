@@ -214,7 +214,7 @@ class SerialVersionUIDInSerializableClassSpec {
     }
 
     @Test
-    fun `does not report a unserializable class`() {
+    fun `does not report an unserializable class`() {
         val code = "class NoSerializableClass"
         assertThat(subject.lint(code)).isEmpty()
     }

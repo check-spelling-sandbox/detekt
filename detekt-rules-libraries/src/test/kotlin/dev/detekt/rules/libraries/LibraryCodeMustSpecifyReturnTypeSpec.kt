@@ -201,7 +201,7 @@ class LibraryCodeMustSpecifyReturnTypeSpec(val env: KotlinEnvironmentContainer) 
         }
 
         @Test
-        fun `should not report a internal top level property`() {
+        fun `should not report an internal top level property`() {
             assertThat(
                 subject.lintWithContext(
                     env,

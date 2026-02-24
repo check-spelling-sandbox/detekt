@@ -703,7 +703,7 @@ class UnusedImportSpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `does not report when used as a annotation`() {
+    fun `does not report when used as an annotation`() {
         val mainFile =
             """
             import x.y.z.Ann

@@ -338,7 +338,7 @@ class UnnecessaryInnerClassSpec(val env: KotlinEnvironmentContainer) {
     inner class `does not report a double-nested inner class accessing from an outer-class member` {
 
         @Test
-        fun `when the innermost class refers a inner class and the inner class refers the outermost class`() {
+        fun `when the innermost class refers an inner class and the inner class refers the outermost class`() {
             val code = """
                 class A {
                     val foo = "BAR"

@@ -38,7 +38,7 @@ class UseSumOfInsteadOfFlatMapSizeSpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports flatMap and count with a argument`() {
+    fun `reports flatMap and count with an argument`() {
         val code = """
             fun test(list: List<Foo>) {
                 list.flatMap { it.foo }.count { it > 2 }

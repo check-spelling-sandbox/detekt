@@ -13,7 +13,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     val subject = UnnecessaryAny(Config.empty)
 
     @Test
-    fun `reports any which is used for checking presence of a element`() {
+    fun `reports any which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any { it == value }
@@ -39,7 +39,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `does not report when any is used with multiline lambda body to find a element`() {
+    fun `does not report when any is used with multiline lambda body to find an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any {
@@ -53,7 +53,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with modified value which is used for checking presence of a element`() {
+    fun `reports any with modified value which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any { it == value * value }
@@ -64,7 +64,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `does not report any with modified it which is used for checking presence of a element`() {
+    fun `does not report any with modified it which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any { it * it == value }
@@ -98,7 +98,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with explicit return which is used for checking presence of a element`() {
+    fun `reports any with explicit return which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any { return@any it == value }
@@ -109,7 +109,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with equals call which is used for checking presence of a element`() {
+    fun `reports any with equals call which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any { it.equals(value) }
@@ -120,7 +120,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with reverse equals call which is used for checking presence of a element`() {
+    fun `reports any with reverse equals call which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any { value.equals(it) }
@@ -131,7 +131,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `does not report any with custom equals method for checking presence of a element`() {
+    fun `does not report any with custom equals method for checking presence of an element`() {
         val code = """
             fun test(list: List<Custom>, value: Custom) {
                 list.any { it.equals(value) }
@@ -145,7 +145,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `does not report any with safe call which is used for checking presence of a element`() {
+    fun `does not report any with safe call which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int?>, value: Int?) {
                 list.any { value?.equals(it) == true }
@@ -288,7 +288,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with reverse condition which is used for checking presence of a element`() {
+    fun `reports any with reverse condition which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any { value == it }
@@ -299,7 +299,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with multiline binary which is used for checking presence of a element`() {
+    fun `reports any with multiline binary which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, veryVeryVeryVeryVeryVeryVeryBigVariableName: Int) {
                 list.any { 
@@ -313,7 +313,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with explicit lambda signature which is used for checking presence of a element`() {
+    fun `reports any with explicit lambda signature which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any { it: Int -> it == value }
@@ -324,7 +324,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with name argument lambda which is used for checking presence of a element`() {
+    fun `reports any with name argument lambda which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any(predicate = { it == value })
@@ -335,7 +335,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with lambda inside parenthesis signature which is used for checking presence of a element`() {
+    fun `reports any with lambda inside parenthesis signature which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any({ it == value })
@@ -346,7 +346,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with anonymous function which is used for checking presence of a element`() {
+    fun `reports any with anonymous function which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any(fun(it: Int): Boolean {
@@ -359,7 +359,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `reports any with anonymous function with expression body which is used for checking presence of a element`() {
+    fun `reports any with anonymous function with expression body which is used for checking presence of an element`() {
         val code = """
             fun test(list: List<Int>, value: Int) {
                 list.any(fun(it: Int) = it == value)
@@ -487,7 +487,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
     @Nested
     inner class `Given predicate is a reference` {
         @Test
-        fun `does not report any with predicate which is used for checking presence of a element`() {
+        fun `does not report any with predicate which is used for checking presence of an element`() {
             val code = """
                 fun test(list: List<Int>, value: Int) {
                     val predicate = { it: Int -> it == value }
@@ -499,7 +499,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
         }
 
         @Test
-        fun `does not report any with predicate with type which is used for checking presence of a element`() {
+        fun `does not report any with predicate with type which is used for checking presence of an element`() {
             val code = """
                 fun test(list: List<Int>, value: Int) {
                     val predicate: (Int) -> Boolean = { it == value }
@@ -511,7 +511,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
         }
 
         @Test
-        fun `does not report any with predicate with anonymous fun which is used for checking presence of a element`() {
+        fun `does not report any with predicate with anonymous fun which is used for checking presence of an element`() {
             val code = """
                 fun test(list: List<Int>, value: Int) {
                     val predicate: (Int) -> Boolean = fun(it: Int): Boolean {
@@ -525,7 +525,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
         }
 
         @Test
-        fun `does not report any with predicate with parenthesis which is used for checking presence of a element`() {
+        fun `does not report any with predicate with parenthesis which is used for checking presence of an element`() {
             val code = """
                 fun test(list: List<Int>, value: Int) {
                     val predicate = ({ it: Int -> it == value })
@@ -537,7 +537,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
         }
 
         @Test
-        fun `does not report any with param which is used for checking presence of a element`() {
+        fun `does not report any with param which is used for checking presence of an element`() {
             val code = """
                 fun test(list: List<Int>, value: Int, predicate: (Int) -> Boolean) {
                     list.any(predicate)
@@ -548,7 +548,7 @@ class UnnecessaryAnySpec(val env: KotlinEnvironmentContainer) {
         }
 
         @Test
-        fun `does not report any with param with default which is used for checking presence of a element`() {
+        fun `does not report any with param with default which is used for checking presence of an element`() {
             val code = """
                 fun test(list: List<Int>, value: Int, predicate: (Int) -> Boolean = { it == value }) {
                     list.any(predicate)
