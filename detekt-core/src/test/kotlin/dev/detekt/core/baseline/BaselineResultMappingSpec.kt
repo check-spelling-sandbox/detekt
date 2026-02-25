@@ -160,7 +160,7 @@ class BaselineResultMappingSpec {
     }
 
     @Test
-    fun `creates on top of an existing a baseline file without issues`() {
+    fun `creates on top of an existing baseline file without issues`() {
         existingBaselineFile.copyTo(baselineFile)
         val mapping = resultMapping(
             baselineFile = baselineFile,
@@ -184,7 +184,7 @@ class BaselineResultMappingSpec {
     }
 
     @Test
-    fun `creates on top of an existing a baseline file with issues`() {
+    fun `creates on top of an existing baseline file with issues`() {
         existingBaselineFile.copyTo(baselineFile)
         val mapping = resultMapping(
             baselineFile = baselineFile,
