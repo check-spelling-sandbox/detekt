@@ -113,7 +113,7 @@ class MyRepository(dispatchers: CoroutineDispatcher = Dispatchers.IO)
 
 ### RedundantSuspendModifier
 
-`suspend` modifier should only be used where needed, otherwise the function can only be used from other suspending
+`suspend` modifier should only be used where needed; otherwise, the function can only be used from other suspending
 functions. This needlessly restricts use of the function and should be avoided by removing the `suspend` modifier
 where it's not needed.
 

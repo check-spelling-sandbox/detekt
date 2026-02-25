@@ -70,7 +70,7 @@ enum class AutoCorrectConfig {
 
 private fun runRule(config: Config): Pair<KtFile, List<Finding>> {
     val testFile = loadFile("configTests/fixed.kt")
-    // reset modification text, otherwise it will be persisted between tests
+    // reset modification text; otherwise, it will be persisted between tests
     testFile.modifiedText = null
 
     val ruleSet = loadRuleSet<KtlintWrapperProvider>()
