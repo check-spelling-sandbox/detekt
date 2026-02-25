@@ -162,7 +162,7 @@ class ForbiddenCommentSpec {
             }
 
             @Test
-            fun `should report Banana usages regardless of case sensitive`() {
+            fun `should report Banana usages regardless of case`() {
                 val forbiddenComment =
                     ForbiddenComment(TestConfig(COMMENTS to listOf("(?i)bAnAnA")))
                 val findings = forbiddenComment.lint(banana)
