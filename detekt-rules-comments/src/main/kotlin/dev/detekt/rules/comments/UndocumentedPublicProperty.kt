@@ -26,7 +26,7 @@ class UndocumentedPublicProperty(config: Config) : Rule(config, "Public properti
     @Configuration("if protected functions should be searched")
     private val searchProtectedProperty: Boolean by config(false)
 
-    @Configuration("ignores a enum entries when set to true")
+    @Configuration("ignores enum entries when set to true")
     private val ignoreEnumEntries: Boolean by config(false)
 
     override fun visitPrimaryConstructor(constructor: KtPrimaryConstructor) {
