@@ -163,7 +163,7 @@ class AbstractClassCanBeInterface(config: Config) :
      * (no initializer), and properties with compile-time constant initializers all qualify.
      *
      * Returns false for properties with a non-const backing field. In a class the initializer runs once per
-     * instance, but in an interface the property requires a getter evaluated on every access, changing behaviour.
+     * instance, but, in an interface, the property requires a getter evaluated on every access, changing behaviour.
      *
      * Only literal values (e.g. 404, "text") and direct references to const vals are considered constant.
      */
