@@ -25,8 +25,7 @@ develop your own custom rules. Another option is to clone the provided [detekt/d
 
 :::note
 
-It's important that the dependency of `dev.detekt:detekt-api` is configured as `compileOnly` (as in the examples).
-You can read more information about this [here](https://github.com/detekt/detekt/issues/7883).
+It's important that the [dependency of `dev.detekt:detekt-api` is configured as `compileOnly`](https://github.com/detekt/detekt/issues/7883) (as in the examples).
 
 :::
 
