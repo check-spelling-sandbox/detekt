@@ -101,7 +101,7 @@ class ProtectedMemberInFinalClassSpec {
         }
 
         @Test
-        fun `reports a protected companion object in an nested class`() {
+        fun `reports a protected companion object in a nested class`() {
             val code = """
                 abstract class Foo {
                     protected companion object {

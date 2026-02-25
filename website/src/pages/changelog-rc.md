@@ -1724,7 +1724,7 @@ All rule sets (except formatting) successfully run now. Formatting needs some fi
 as line and column values are sometimes not correctly determined by the AST.
 
 One idea of mine is to threat formatting as an extern rule set and only allow auto correcting
-the source code without an report to skip line/column problem.
+the source code without a report to skip line/column problem.
 
 More issues: https://gitlab.com/arturbosch/detekt/milestones/5
 

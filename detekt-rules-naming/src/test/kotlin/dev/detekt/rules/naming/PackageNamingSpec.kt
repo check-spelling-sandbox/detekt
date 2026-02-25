@@ -30,7 +30,7 @@ class PackageNamingSpec {
     }
 
     @Test
-    fun `should check an valid package name`() {
+    fun `should check a valid package name`() {
         assertThat(PackageNaming(Config.empty).lint("package foo.bar")).isEmpty()
     }
 }

@@ -100,7 +100,7 @@ class YamlSpec {
         }
 
         @Test
-        fun `renders an list of empty maps`() {
+        fun `renders a list of empty maps`() {
             val given = listOf<Map<String, String>>(emptyMap(), emptyMap())
             val result = yaml { listOfMaps("key", given) }
             val expected = "key: []"

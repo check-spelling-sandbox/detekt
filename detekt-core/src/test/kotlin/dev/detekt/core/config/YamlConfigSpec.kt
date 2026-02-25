@@ -234,7 +234,7 @@ class YamlConfigSpec {
         }
 
         @Test
-        fun `throws an exception on an non-existing file`() {
+        fun `throws an exception on a non-existing file`() {
             val path = Path("doesNotExist.yml")
             assertThatIllegalArgumentException()
                 .isThrownBy { YamlConfig.load(path) }
