@@ -53,7 +53,7 @@ class ForbiddenOptInSpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `should report single forbidden opt-in without a stating a reason`() {
+    fun `should report single forbidden opt-in without stating a reason`() {
         val code = """
             import annotations.*
 
