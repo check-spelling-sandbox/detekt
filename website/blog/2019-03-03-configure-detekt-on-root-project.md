@@ -49,7 +49,7 @@ detekt {
 ```
 Make sure to specify the `input` parameter or no sources are found and _detekt_ won't run!
 
-If you need more fine grained _detekt_ tasks, you could register more tasks using the _Detekt_ task as the base task.
+If you need more fine-grained _detekt_ tasks, you could register more tasks using the _Detekt_ task as the base task.
 Using the _Kotlin-Dsl_ it could look like this:
 ```gradle
 val detektAll by tasks.registering(Detekt::class) {
