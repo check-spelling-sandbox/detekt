@@ -633,7 +633,7 @@ formatting:
 -   Remove redundant rule config for rules enabled by default - [#5257](https://github.com/detekt/detekt/pull/5257)
 -   UnusedPrivateMember: fix false positive with backtick parameters - [#5252](https://github.com/detekt/detekt/pull/5252)
 -   Improve MultilineRawStringIndentation - [#5245](https://github.com/detekt/detekt/pull/5245)
--   UnnecessaryLet: fix false positive with with invoke operator calls - [#5240](https://github.com/detekt/detekt/pull/5240)
+-   UnnecessaryLet: fix false positive with invoke operator calls - [#5240](https://github.com/detekt/detekt/pull/5240)
 -   Introduce baseline tooling api - [#5239](https://github.com/detekt/detekt/pull/5239)
 -   Allow secondary constructors to reference CoroutineDispatchers - [#5227](https://github.com/detekt/detekt/pull/5227)
 -   Update `UnnecessaryAbstractClass` issue description to be less verbose - [#5224](https://github.com/detekt/detekt/pull/5224)

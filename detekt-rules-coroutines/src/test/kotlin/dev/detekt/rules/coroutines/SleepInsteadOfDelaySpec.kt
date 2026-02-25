@@ -189,7 +189,7 @@ class SleepInsteadOfDelaySpec(private val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `should report Thread sleep() called in custom function inside suspend lambda wth type in braces`() {
+    fun `should report Thread sleep() called in custom function inside suspend lambda with type in braces`() {
         val code = """
             import kotlinx.coroutines.MainScope
             import kotlinx.coroutines.launch
