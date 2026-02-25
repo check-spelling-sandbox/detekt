@@ -42,7 +42,7 @@ class KtTestCompilerSpec {
         }
 
         @Test
-        fun `throws an exception for a non existent path`() {
+        fun `throws an exception for a nonexistent path`() {
             assertThatIllegalArgumentException()
                 .isThrownBy { ktCompiler.compile(Path("nonExistent")) }
                 .withMessage("Given path 'nonExistent' should be a regular file!")

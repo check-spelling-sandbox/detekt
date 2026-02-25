@@ -164,19 +164,19 @@ class RunnerSpec {
         }
 
         @Test
-        fun `should throw on non existing rule`() {
+        fun `should throw on nonexistent rule`() {
             assertThatThrownBy { executeDetekt("--run-rule", "test:non_existing") }
                 .isExactlyInstanceOf(IllegalArgumentException::class.java)
         }
 
         @Test
-        fun `should throw on non existing rule set`() {
+        fun `should throw on nonexistent rule set`() {
             assertThatThrownBy { executeDetekt("--run-rule", "non_existing:TestRule") }
                 .isExactlyInstanceOf(IllegalArgumentException::class.java)
         }
 
         @Test
-        fun `should throw on non existing run-rule`() {
+        fun `should throw on nonexistent run-rule`() {
             assertThatThrownBy { executeDetekt("--run-rule", "") }
                 .isExactlyInstanceOf(IllegalArgumentException::class.java)
                 .hasMessage("Pattern 'RuleSetId:RuleName' expected.")

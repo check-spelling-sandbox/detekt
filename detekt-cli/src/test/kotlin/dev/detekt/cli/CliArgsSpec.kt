@@ -430,14 +430,14 @@ internal class CliArgsSpec {
     }
 
     @Test
-    fun `base-path with a non existent directory`() {
+    fun `base-path with a nonexistent directory`() {
         assertThatExceptionOfType(HandledArgumentViolation::class.java)
             .isThrownBy { parseArguments(arrayOf("--base-path", "nonExistent")) }
             .withMessage("Value passed to --base-path must be a directory.")
     }
 
     @Test
-    fun `jdk-home with a non existent directory`() {
+    fun `jdk-home with a nonexistent directory`() {
         assertThatExceptionOfType(HandledArgumentViolation::class.java)
             .isThrownBy { parseArguments(arrayOf("--jdk-home", "nonExistent")) }
             .withMessage("Value passed to --jdk-home must be a directory.")
