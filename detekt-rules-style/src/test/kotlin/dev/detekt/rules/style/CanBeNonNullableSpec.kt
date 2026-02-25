@@ -1244,7 +1244,7 @@ class CanBeNonNullableSpec(val env: KotlinEnvironmentContainer) {
             }
 
             @Test
-            fun `does report when receiver val does not not handle nullability`() {
+            fun `does report when receiver val does not handle nullability`() {
                 val code = """
                     val Any.log: Unit
                         get() = println(this.toString())
@@ -1258,7 +1258,7 @@ class CanBeNonNullableSpec(val env: KotlinEnvironmentContainer) {
             }
 
             @Test
-            fun `does report when receiver val does not not handle nullability with long chain`() {
+            fun `does report when receiver val does not handle nullability with long chain`() {
                 val code = """
                     val Any.log: Unit
                         get() = println(this.toString())
