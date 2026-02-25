@@ -630,7 +630,7 @@ class UnnecessaryInnerClassSpec(val env: KotlinEnvironmentContainer) {
     }
 
     @Test
-    fun `#8927 - does not inner class report when it's parent is inner class`() {
+    fun `#8927 - does not inner class report when its parent is inner class`() {
         val code = """
             class A {
                 fun computeExpensive(className: String) = className + "_1"
