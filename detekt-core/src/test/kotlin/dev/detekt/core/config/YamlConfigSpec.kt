@@ -41,7 +41,7 @@ class YamlConfigSpec {
         }
 
         @Test
-        fun `should create a sub sub config`() {
+        fun `should create a sub sub-config`() {
             val subConfig = config.subConfig("style")
             val subSubConfig = subConfig.subConfig("WildcardImport")
             assertThat(subSubConfig.valueOrDefault("active", false)).isTrue()
