@@ -68,13 +68,9 @@ on:
     branches:
       - '**'
     types:
-      - 'edited'
       - 'opened'
       - 'reopened'
       - 'synchronize'
-  issue_comment:
-    types:
-      - 'created'
 
 permissions: {}
 
@@ -97,7 +93,7 @@ jobs:
     steps:
       - name: check-spelling
         id: spelling
-        uses: check-spelling-sandbox/check-spelling@prerelease
+        uses: check-spelling/check-spelling@main
         with:
           suppress_push_for_open_pull_request: ${{ github.actor != 'dependabot[bot]' && 1 }}
           checkout: true
@@ -110,77 +106,12 @@ jobs:
           warnings: bad-regex,binary-file,deprecated-feature,ignored-expect-variant,large-file,limited-references,no-newline-at-eof,noisy-file,non-alpha-in-dictionary,token-is-substring,unexpected-line-ending,whitespace-in-dictionary,minified-file,unsupported-configuration,no-files-to-check,unclosed-block-ignore-begin,unclosed-block-ignore-end
           experimental_apply_changes_via_bot: 1
           use_sarif: 1
-          check-images: 1
           extra_dictionary_limit: 20
           allow-hunspell: false
-          load-config-from: |
-            {
-              "pr-base-keys": [
-                "check_extra_dictionaries",
-                "dictionary_source_prefixes",
-                "extra_dictionaries",
-                ""
-              ],
-              "pr-trusted-keys": [
-                ""
-              ],
-              "": []
-            }
-
-  comment-push:
-    name: Report (Push)
-    # If your workflow isn't running on push, you can remove this job
-    runs-on: ubuntu-slim
-    needs: spelling
-    permissions:
-      actions: read
-      contents: write
-    if: (success() || failure()) && needs.spelling.outputs.followup && github.event_name == 'push'
-    steps:
-      - name: comment
-        uses: check-spelling/check-spelling@prerelease
-        with:
-          spell_check_this: check-spelling/spell-check-this@prerelease
-          task: ${{ needs.spelling.outputs.followup }}
-
-  comment-pr:
-    name: Report (PR)
-    # If you workflow isn't running on pull_request*, you can remove this job
-    runs-on: ubuntu-slim
-    needs: spelling
-    permissions:
-      actions: read
-      pull-requests: write
-    if: (success() || failure()) && needs.spelling.outputs.followup && contains(github.event_name, 'pull_request')
-    steps:
-      - name: comment
-        uses: check-spelling/check-spelling@prerelease
-        with:
-          spell_check_this: check-spelling/spell-check-this@prerelease
-          task: ${{ needs.spelling.outputs.followup }}
-          experimental_apply_changes_via_bot: 1
-
-  update:
-    name: Update PR
-    permissions:
-      contents: write
-      pull-requests: write
-      actions: read
-    runs-on: ubuntu-slim
-    if: ${{
-      github.event_name == 'issue_comment' &&
-      github.event.issue.pull_request &&
-      contains(github.event.comment.body, '@check-spelling-bot') &&
-      contains(github.event.comment.body, 'apply') &&
-      contains(github.event.comment.body, 'https://')
-      }}
-    concurrency:
-      group: spelling-update-${{ github.event.issue.number }}
-      cancel-in-progress: false
-    steps:
-      - name: apply spelling updates
-        uses: check-spelling/check-spelling@prerelease
-        with:
-          experimental_apply_changes_via_bot: 1
-          checkout: true
-          ssh_key: '${{ secrets.CHECK_SPELLING }}'
+          
+          check_extra_dictionaries: ""
+          dictionary_source_prefixes: |
+            {    "asm": "https://raw.githubusercontent.com/check-spelling/assembly-dictionaries/20231110/",    "cspell": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20230509/dictionaries/",    "cspell1": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20241114/dictionaries/",    "census": "https://raw.githubusercontent.com/check-spelling-sandbox/census/dictionaries-d90e686f89dd241ad61d30f26619e54d73e73c6e/dictionaries/"  }
+          
+          extra_dictionaries: |
+            [  "cspell1:software-terms/softwareTerms.txt",    "census:census-5.txt",    "cspell1:npm/npm.txt",    "cspell1:java/java.txt",    "cspell1:python/python/python-lib.txt",    "cspell1:scala/scala.txt",    "asm:ia64-isa.txt",    "cspell1:java/java-terms.txt",    "cspell1:dart/dart.txt",    "cspell1:fullstack/fullstack.txt",    "cspell1:filetypes/filetypes.txt",    "cspell1:html/html.txt"]
