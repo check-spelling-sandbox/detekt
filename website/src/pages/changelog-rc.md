@@ -986,7 +986,7 @@ build:
 - MatchingDeclarationName has false positives - [#686](https://github.com/detekt/detekt/issues/686)
 - UtilityClassWithPublicConstructor reports classes with delegates - [#682](https://github.com/detekt/detekt/issues/682)
 - `ComplexMethod` rule question - [#680](https://github.com/detekt/detekt/issues/680)
-- generator: anchor tags are lower case; TOC links to CamelCase - [#678](https://github.com/detekt/detekt/issues/678)
+- generator: anchor tags are lowercase; TOC links to CamelCase - [#678](https://github.com/detekt/detekt/issues/678)
 
 See all issues at: [RC6-3](https://github.com/detekt/detekt/milestone/31)
 

@@ -57,7 +57,7 @@ private fun String.getPackage(): String {
      * @Component
      * @Component.Factory
      * @dagger.Component.Factory
-     * For that reason we use a heuristic here: If the first character is lower case we assume it's a package name
+     * For that reason we use a heuristic here: If the first character is lowercase we assume it's a package name
      */
     return this
         .splitToSequence(".")
