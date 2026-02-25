@@ -773,7 +773,7 @@ This is an initial alpha release of Detekt 2.0.0.
 - Explain #5713: KDoc line breaks are whitespaces - [#6621](https://github.com/detekt/detekt/pull/6621)
 - Show deprecation message - [#6614](https://github.com/detekt/detekt/pull/6614)
 - Add io.gitlab.arturbosch.detekt.generator.Main to the jar manifest - [#6613](https://github.com/detekt/detekt/pull/6613)
-- Don't report FunctionNaming when the function's name equals to the return type's name with type arguments - [#6605](https://github.com/detekt/detekt/pull/6605)
+- Don't report FunctionNaming when the function's name equals the return type's name with type arguments - [#6605](https://github.com/detekt/detekt/pull/6605)
 - Fix issues related to kotlin-stdlib's Gradle module metadata in Kotlin 1.9.20 - [#6590](https://github.com/detekt/detekt/pull/6590)
 - MethodSignature - Add the condition of receiver should be null - [#6570](https://github.com/detekt/detekt/pull/6570)
 - Fix by adding last method call to the set - [#6567](https://github.com/detekt/detekt/pull/6567)

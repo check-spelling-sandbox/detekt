@@ -79,7 +79,7 @@ class FunctionNamingSpec {
     }
 
     @Test
-    fun `does not report when the function's name equals to the return type's name with type arguments`() {
+    fun `does not report when the function's name equals the return type's name with type arguments`() {
         val code = """
             interface Foo<T>
             fun <T> Foo(): Foo<T> = object : Foo<T> {}
