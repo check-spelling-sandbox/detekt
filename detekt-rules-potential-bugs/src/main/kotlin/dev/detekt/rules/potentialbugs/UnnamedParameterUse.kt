@@ -88,7 +88,7 @@ class UnnamedParameterUse(config: Config) :
     ),
     RequiresAnalysisApi {
 
-    @Configuration("Allow adjacent unnamed params when type of parameters can not be assigned to each other")
+    @Configuration("Allow adjacent unnamed params when type of parameters cannot be assigned to each other")
     val allowAdjacentDifferentTypeParams: Boolean by config(true)
 
     @Configuration("Allow single unnamed parameter use")

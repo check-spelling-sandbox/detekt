@@ -181,7 +181,7 @@ class UnnecessaryBracesAroundTrailingLambdaSpec(val env: KotlinEnvironmentContai
     }
 
     @Test
-    fun `does not report first lambda can not be moved out of the braces`() {
+    fun `does not report first lambda cannot be moved out of the braces`() {
         val code = """
             fun foo() {
                 bar({ it })

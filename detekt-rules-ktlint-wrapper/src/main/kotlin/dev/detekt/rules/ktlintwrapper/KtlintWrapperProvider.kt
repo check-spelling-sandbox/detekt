@@ -282,7 +282,7 @@ internal fun List<(Config) -> KtlintRule>.sorted(): List<(Config) -> KtlintRule>
                             .all { it.ruleId in sortedRuleIds }
                     }
             ) {
-                "Can not complete sorting of rule providers as next item can not be determined."
+                "Cannot complete sorting of rule providers as next item cannot be determined."
             }
         sortedRuleIds.add(rule.wrappingRuleId)
         sortedRules.add(provider)

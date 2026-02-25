@@ -885,7 +885,7 @@ type changes. And code gets error prone as it gets easy to mix up parameters of 
 
 * ``allowAdjacentDifferentTypeParams`` (default: ``true``)
 
-  Allow adjacent unnamed params when type of parameters can not be assigned to each other
+  Allow adjacent unnamed params when type of parameters cannot be assigned to each other
 
 * ``allowSingleParamUse`` (default: ``true``)
 
