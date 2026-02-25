@@ -76,7 +76,7 @@ fun foo(bar: Any?) {
 ### CastToNullableType
 
 Reports unsafe cast to nullable types.
-`as String?` is unsafed and may be misused as safe cast (`as? String`).
+`as String?` is unsafe and may be misused as safe cast (`as? String`).
 
 **Active by default**: No
 
