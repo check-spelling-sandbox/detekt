@@ -17,7 +17,7 @@ interface Extension {
 
     /**
      * Is used to run extensions in a specific order.
-     * The higher the priority the sooner the extension will run in detekt's lifecycle.
+     * The higher the priority, the sooner the extension will run in detekt's lifecycle.
      */
     val priority: Int get() = -1
 
