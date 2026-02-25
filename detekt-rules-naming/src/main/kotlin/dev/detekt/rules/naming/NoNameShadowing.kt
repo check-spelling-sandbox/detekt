@@ -81,7 +81,7 @@ class NoNameShadowing(config: Config) :
         super.visitParameter(parameter)
         checkNameShadowing(
             parameter,
-            // if this param is from lambda or we fallback to function(ctor)
+            // if this param is from lambda or we fall back to function(ctor)
             (parameter.parent.parent.parent as? KtLambdaExpression)
                 ?: parameter.parentOfType<KtFunction>(false).let {
                     if (it is KtPrimaryConstructor) {
