@@ -316,7 +316,7 @@ class StringShouldBeRawStringSpec {
     fun `does not report for single line comment`() {
         val code = """
             fun test() {
-                // As in case when multiple \n \n \n it checks those
+                // As in the case when multiple \n \n \n it checks those
                 val size1 = "\nThis rule is awesome\n"
             }
         """.trimIndent()
@@ -330,7 +330,7 @@ class StringShouldBeRawStringSpec {
         val code = """
             fun test() {
                 /**
-                * As in case when multiple \n \n \n it checks those
+                * As in the case when multiple \n \n \n it checks those
                 */
                 val size1 = "\nThis rule is awesome\n"
             }
