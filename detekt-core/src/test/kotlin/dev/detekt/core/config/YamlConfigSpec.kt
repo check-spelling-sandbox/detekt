@@ -104,7 +104,7 @@ class YamlConfigSpec {
                     active: []
                     threshold: v5.7
                 
-                bool: fasle
+                bool: false_
             """.trimIndent()
         )
 
@@ -112,7 +112,7 @@ class YamlConfigSpec {
         fun `only accepts true and false boolean values`() {
             assertThatIllegalArgumentException()
                 .isThrownBy { config.valueOrDefault("bool", false) }
-                .withMessage("""The string doesn't represent a boolean value: fasle""")
+                .withMessage("""The string doesn't represent a boolean value: false_""")
         }
 
         @Test
