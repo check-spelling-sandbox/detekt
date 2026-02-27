@@ -1032,7 +1032,7 @@ fun f() {
 
 ### UnsafeCallOnNullableType
 
-Reports unsafe calls on nullable types. These calls will throw a NullPointerException in case
+Reports unsafe calls on nullable types. These calls will throw a NullPointerException when
 the nullable value is null. Kotlin provides many ways to work with nullable types to increase
 null safety. Guard the code appropriately to prevent NullPointerExceptions.
 

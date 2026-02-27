@@ -122,7 +122,7 @@ sealed class FunctionMatcher {
 
         fun getNameForGetterOrSetter(propertySymbol: KaPropertySymbol, symbol: KaCallableSymbol): String? {
             return if (symbol.callableId != null) {
-                // in case it is Java getter or setter then callableId id will be not null and can be used
+                // when it is Java getter or setter then callableId id will be not null and can be used
                 symbol.asFqNameString()
             } else {
                 // when it's a Kotlin property and getX and setX synthetic methods are only from Java side

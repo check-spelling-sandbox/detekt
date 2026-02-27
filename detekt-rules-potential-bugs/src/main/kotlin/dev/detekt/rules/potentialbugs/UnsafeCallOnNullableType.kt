@@ -31,7 +31,7 @@ import org.jetbrains.kotlin.psi.KtPostfixExpression
 class UnsafeCallOnNullableType(config: Config) :
     Rule(
         config,
-        "Unsafe calls on nullable types detected. These calls will throw a NullPointerException in case " +
+        "Unsafe calls on nullable types detected. These calls will throw a NullPointerException when " +
             "the nullable value is null."
     ),
     RequiresAnalysisApi {
@@ -50,7 +50,7 @@ class UnsafeCallOnNullableType(config: Config) :
                 Finding(
                     Entity.from(expression),
                     "Calling !! on a nullable type will throw a " +
-                        "NullPointerException at runtime in case the value is null. It should be avoided."
+                        "NullPointerException at runtime when the value is null. It should be avoided."
                 )
             )
         }

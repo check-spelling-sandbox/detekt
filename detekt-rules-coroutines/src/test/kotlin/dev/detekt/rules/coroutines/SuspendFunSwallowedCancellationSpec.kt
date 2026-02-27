@@ -861,7 +861,7 @@ class SuspendFunSwallowedCancellationSpec(private val env: KotlinEnvironmentCont
     }
 
     @Test
-    fun `does report in case suspend callable reference is invoked`() {
+    fun `does report when suspend callable reference is invoked`() {
         val code = """
             import kotlinx.coroutines.delay
 
@@ -880,7 +880,7 @@ class SuspendFunSwallowedCancellationSpec(private val env: KotlinEnvironmentCont
     }
 
     @Test
-    fun `does report in case suspend local function is invoked`() {
+    fun `does report when suspend local function is invoked`() {
         val code = """
             import kotlinx.coroutines.delay
 
