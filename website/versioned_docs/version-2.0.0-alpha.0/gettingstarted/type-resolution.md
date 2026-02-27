@@ -47,7 +47,7 @@ Moreover, their official documentation in the detekt website will mention _Requi
 
 :::caution
 
-Please note that we do have some rules that have mixed behavior whether type resolution is enabled or not. Those rules are listed here: [#2994](https://github.com/detekt/detekt/issues/2994)
+Please note that we do have some rules that have mixed behavior whether or not type resolution is enabled. Those rules are listed here: [#2994](https://github.com/detekt/detekt/issues/2994)
 
 :::
 
