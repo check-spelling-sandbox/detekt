@@ -66,7 +66,7 @@ class ClassOrderingSpec {
     }
 
     @Test
-    fun `does not report when class is empty with out body`() {
+    fun `does not report when class does not have a body`() {
         val code = """
             class InOrder
         """.trimIndent()
