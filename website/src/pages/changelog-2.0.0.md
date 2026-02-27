@@ -641,7 +641,7 @@ This is an initial alpha release of Detekt 2.0.0.
 - Issue #7634: Make `UndocumentedPublicClass` configurable to flag `com… - [#7635](https://github.com/detekt/detekt/pull/7635)
 - Fix redundant empty tags in baseline XML - [#7625](https://github.com/detekt/detekt/pull/7625)
 - Remove `ThresholdedCodeSmell` - [#7592](https://github.com/detekt/detekt/pull/7592)
-- Make ForbiddenSuppress un-suppressable - [#7590](https://github.com/detekt/detekt/pull/7590)
+- Make ForbiddenSuppress un-suppressible - [#7590](https://github.com/detekt/detekt/pull/7590)
 - ExplicitCollectionElementAccessMethod: fix false positive when Map put has 3 arguments - [#7563](https://github.com/detekt/detekt/pull/7563)
 - Automatically handle "multiPlatformEnabled" option in JVM compilation analysis tasks - [#7539](https://github.com/detekt/detekt/pull/7539)
 - Add `ignoreInternal` config to TooManyFunctions - [#7537](https://github.com/detekt/detekt/pull/7537)
