@@ -1851,7 +1851,7 @@ Rule authors can use `TestConfig(Map)` or `yamlConfig(String)` from `detekt-test
 -   Remove Suppress annotation from MagicNumber - [#3203](https://github.com/detekt/detekt/pull/3203)
 -   Remove Suppress annotation from UnusedImports - [#3202](https://github.com/detekt/detekt/pull/3202)
 -   Refactor FunctionNaming rule - [#3201](https://github.com/detekt/detekt/pull/3201)
--   Setup the website publishing pipeline - [#3199](https://github.com/detekt/detekt/pull/3199)
+-   Set up the website publishing pipeline - [#3199](https://github.com/detekt/detekt/pull/3199)
 -   Improve code coverage for DefaultCliInvoker testing happy and error path - [#3195](https://github.com/detekt/detekt/pull/3195)
 -   Make kotlinc adapted rule comments internal - [#3192](https://github.com/detekt/detekt/pull/3192)
 -   Improve PreferToOverPairSyntax - [#3181](https://github.com/detekt/detekt/pull/3181)
