@@ -219,7 +219,7 @@ class OutdatedDocumentationSpec {
         }
 
         @Test
-        fun `should report when only public property and param is documented with missing param`() {
+        fun `should report when only public property and param is documented without documenting a param`() {
             val incorrectDeclarationsOrder = """
                 /**
                  * Doc
