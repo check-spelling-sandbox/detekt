@@ -1000,7 +1000,7 @@ This is an initial alpha release of Detekt 2.0.0.
 - Simplify detekt-test - [#6732](https://github.com/detekt/detekt/pull/6732)
 - Don't recreate sequence - [#6731](https://github.com/detekt/detekt/pull/6731)
 - Remove RuleSet.visitFile - [#6730](https://github.com/detekt/detekt/pull/6730)
-- Simplfy sarif code - [#6729](https://github.com/detekt/detekt/pull/6729)
+- Simplify sarif code - [#6729](https://github.com/detekt/detekt/pull/6729)
 - Fix too generic tests - [#6724](https://github.com/detekt/detekt/pull/6724)
 - Remove reports from detekt-core dependencies - [#6683](https://github.com/detekt/detekt/pull/6683)
 - Enable Kotlin metadata version check for script compilation - [#6674](https://github.com/detekt/detekt/pull/6674)
