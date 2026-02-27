@@ -810,7 +810,7 @@ Because of this, some users might have to **recreate their baseline** as the loc
 -   ExplicitCollectionElementAccessMethod: fix false positive for get operators with type parameters - [#4803](https://github.com/detekt/detekt/pull/4803)
 -   Add tests for #4786 - [#4801](https://github.com/detekt/detekt/pull/4801)
 -   Add documentation link for rules in html report - [#4799](https://github.com/detekt/detekt/pull/4799)
--   Improve rule documentaion and smell message of NamedArguments - [#4796](https://github.com/detekt/detekt/pull/4796)
+-   Improve rule documentation and smell message of NamedArguments - [#4796](https://github.com/detekt/detekt/pull/4796)
 -   Improve issue description and smell message of DestructuringDeclarationWithTooManyEntries - [#4795](https://github.com/detekt/detekt/pull/4795)
 -   NestedScopeFunctions - Add rule for nested scope functions - [#4788](https://github.com/detekt/detekt/pull/4788)
 -   Partially drop redundant usage of "dry run" in Gradle plugin tests - [#4776](https://github.com/detekt/detekt/pull/4776)

@@ -61,4 +61,4 @@ Combined with our silent configuration only messages are printed when findings a
 
 ![report](/img/blog/howto-silent-run/compact_report.png)
 
-See the [extension](/docs/introduction/extensions) documention on how to let detekt know about your custom report.
+See the [extension](/docs/introduction/extensions) documentation on how to let detekt know about your custom report.
