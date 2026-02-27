@@ -47,7 +47,7 @@ class DisabledAutoCorrectConfigSpec {
     }
 
     @Test
-    fun `verify the autocorrect field false in case the autoCorrect not present into yaml config`() {
+    fun `verify the autocorrect field false when autoCorrect is not present into yaml config`() {
         val config = yamlConfigFromContent(
             """
             comments:
