@@ -105,7 +105,7 @@ class NestedClassesVisibilitySpec {
     }
 
     @Test
-    fun `does not report nested classes with a nesting depth higher than 1`() {
+    fun `does not report nested classes with a nesting depth greater than 1`() {
         val code = """
             internal class Outer {
                 class C1 {
