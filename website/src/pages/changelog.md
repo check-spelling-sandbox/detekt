@@ -671,7 +671,7 @@ formatting:
 -   UnusedUnaryOperator: fix false positive with var assignment and if expression - [#5106](https://github.com/detekt/detekt/pull/5106)
 -   Tag publishPlugins task as incompatible with configuration cache - [#5101](https://github.com/detekt/detekt/pull/5101)
 -   Make verifyGeneratorOutput task configuration cache compatible - [#5100](https://github.com/detekt/detekt/pull/5100)
--   Remove obsolete FeatureInAlphaState opt in - [#5099](https://github.com/detekt/detekt/pull/5099)
+-   Remove obsolete FeatureInAlphaState opt-in - [#5099](https://github.com/detekt/detekt/pull/5099)
 -   Remove explicit RequiresOptIn compiler flag - [#5098](https://github.com/detekt/detekt/pull/5098)
 -   Use Gradle's configuration cache by default - [#5095](https://github.com/detekt/detekt/pull/5095)
 -   Detect undocumented protected classes, properties, and functions - [#5083](https://github.com/detekt/detekt/pull/5083)
