@@ -154,9 +154,9 @@ fun bar(vararg strs: String) {
 
 ### UnnecessaryPartOfBinaryExpression
 
-Unnecessary binary expression add complexity to the code and accomplish nothing. They should be removed.
-The rule works with all binary expression included if and when condition. The rule also works with all predicates.
-The rule verify binary expression only in case when the expression use only one type of the following
+Unnecessary binary expressions add complexity to the code and accomplish nothing. They should be removed.
+The rule works with all binary expressions including if and when conditions. The rule also works with all predicates.
+The rule verifies binary expression only when the expression uses only one type of the following
 operators || or &&.
 
 **Active by default**: No
