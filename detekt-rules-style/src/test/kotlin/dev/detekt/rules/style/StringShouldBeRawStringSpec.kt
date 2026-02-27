@@ -313,7 +313,7 @@ class StringShouldBeRawStringSpec {
     }
 
     @Test
-    fun `does not report in case of single line comment`() {
+    fun `does not report for single line comment`() {
         val code = """
             fun test() {
                 // As in case when multiple \n \n \n it checks those
@@ -326,7 +326,7 @@ class StringShouldBeRawStringSpec {
     }
 
     @Test
-    fun `does not report in case of block line comment`() {
+    fun `does not report for block line comment`() {
         val code = """
             fun test() {
                 /**
