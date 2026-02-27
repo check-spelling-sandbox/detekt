@@ -186,7 +186,7 @@ class RuleSetProviderCollectorSpec {
     }
 
     @Nested
-    inner class `a RuleSetProvider with missing name` {
+    inner class `a RuleSetProvider without a name` {
         private val description = "This is a description"
         private val ruleName = "TestRule"
         private val code = """
@@ -212,7 +212,7 @@ class RuleSetProviderCollectorSpec {
     }
 
     @Nested
-    inner class `a RuleSetProvider with missing description` {
+    inner class `a RuleSetProvider without a description` {
         private val ruleSetId = "test"
         private val ruleName = "TestRule"
         private val code = """

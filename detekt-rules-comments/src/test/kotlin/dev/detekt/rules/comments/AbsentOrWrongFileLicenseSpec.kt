@@ -89,7 +89,7 @@ class AbsentOrWrongFileLicenseSpec {
     inner class `file with incorrect license header using regex matching` {
 
         @Test
-        fun `file with missing license header`() {
+        fun `file without a license header`() {
             val findings = checkLicence(
                 """
                     package cases

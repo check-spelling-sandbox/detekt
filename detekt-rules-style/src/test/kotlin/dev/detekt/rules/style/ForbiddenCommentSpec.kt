@@ -304,7 +304,7 @@ class ForbiddenCommentSpec {
         }
 
         @Test
-        fun `should report a finding when review pattern is matched with comment with out leading space`() {
+        fun `should report a finding when review pattern is matched with comment without a leading space`() {
             val comment = "//REVIEW foo -> flag"
             val findings = ForbiddenComment(messageConfig).lint(comment)
             assertThat(findings).hasSize(1)
