@@ -959,7 +959,7 @@ us release this new version of detekt. You're more than welcome to join our comm
 -   Document the overlapping rules from `formatting` - [#4473](https://github.com/detekt/detekt/pull/4473)
 -   Match functions signatures with lambdas on it - [#4458](https://github.com/detekt/detekt/pull/4458)
 -   Add option for OutdatedDocumentation to allow param in constructor pr… - [#4453](https://github.com/detekt/detekt/pull/4453)
--   Ignore private operators when we don't have ContextBingding in UnusedPrivateMember - [#4441](https://github.com/detekt/detekt/pull/4441)
+-   Ignore private operators when we don't have ContextBinding in UnusedPrivateMember - [#4441](https://github.com/detekt/detekt/pull/4441)
 -   Add documentation for `Suppressor`s - [#4440](https://github.com/detekt/detekt/issues/4440)
 -   [FunctionNaming] Don't allow the usage of ` in function names - [#4439](https://github.com/detekt/detekt/pull/4439)
 -   Add list of functions to skip in IgnoredReturnValue rule - [#4434](https://github.com/detekt/detekt/pull/4434)
