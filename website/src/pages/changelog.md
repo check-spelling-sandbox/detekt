@@ -298,7 +298,7 @@ We would like to thank the following contributors that made this release possibl
 -   Increase ALIASES_LIMIT to 100 for YamlConfig - [#5986](https://github.com/detekt/detekt/pull/5986)
 -   Fix elvis to +/- case in case UnnecessaryParentheses when precedence is unclear - [#5983](https://github.com/detekt/detekt/pull/5983)
 -   jdkHome as @Internal - [#5978](https://github.com/detekt/detekt/pull/5978)
--   Fix broken POM file for detetk-compiler-plugin - [#5971](https://github.com/detekt/detekt/pull/5971)
+-   Fix broken POM file for detekt-compiler-plugin - [#5971](https://github.com/detekt/detekt/pull/5971)
 -   Fix broken publishToMavenLocal - [#5970](https://github.com/detekt/detekt/pull/5970)
 -   Add `allowOmitUnit` to rule `LibraryCodeMustSpecifyReturnType` - [#5861](https://github.com/detekt/detekt/pull/5861)
 -   Remove dependency that creates a cycle. - [#5777](https://github.com/detekt/detekt/pull/5777)
