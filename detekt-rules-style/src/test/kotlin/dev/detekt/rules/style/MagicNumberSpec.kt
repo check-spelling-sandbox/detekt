@@ -531,7 +531,7 @@ class MagicNumberSpec {
         }
 
         @Test
-        fun `should not report any issues when ignoring properties but not constants nor companion objects`() {
+        fun `should not report any issues when ignoring properties and neither constants nor companion objects`() {
             val config = TestConfig(
                 IGNORE_PROPERTY_DECLARATION to true,
                 IGNORE_CONSTANT_DECLARATION to false,
